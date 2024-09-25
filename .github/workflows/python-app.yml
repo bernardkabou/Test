@@ -29,8 +29,8 @@ jobs:
         pip install pytest
         pip install pycountry
         pip install pycountry_convert
-    - name: Lint with flake8
-      run: |
+    
+      
     - name: Test with pytest
       run: |
         pytest
